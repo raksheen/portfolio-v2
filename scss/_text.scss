@@ -12,41 +12,49 @@
 
 //60px
 .heading-1 {
-  color: $white;
+  color: $teal;
+	font-family: "Basetica-Bold";
+	font-size: $up4;
+	line-height: 4.062375rem;
+}
+
+//32px
+.heading-2 {
+  color: $teal;
 	font-family: "Basetica-Bold";
 	font-size: $up4;
 	line-height: 4.062375rem;
 }
 
 //24px bold and regular
-.heading-2 {
+.heading-3 {
 	font-family: "Basetica";
 	font-size: $up3;
 	line-height: 1.2rem;
 }
 
 //20px; bold and regular, gray and white
-.heading-3 {
+.heading-4 {
 	font-size: $up2;
 	line-height: 1.875rem;
 }
 
 //18px, gray-darker 
-.heading-4 {
+.heading-5 {
 	color: $teal;
 	font-size: $up1;
 	line-height: 1.67rem;
 }
 
 //16px
-.heading-5 {
+.heading-6 {
   color: $teal;
 	font-size: $base;
 	line-height: 0.9375rem;
 }
 
 //12px, gray-lighter, white
-.heading-6 {
+.heading-7 {
 	color: $teal;
 	font-size: $down1;
 	line-height: 0.75rem;
