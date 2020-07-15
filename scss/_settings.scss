@@ -28,3 +28,27 @@ $down1: 0.75rem; //12px
 // -------------------------------------
 //   Font Colors
 // -------------------------------------
+
+.color--teal {
+  color: $teal;
+}
+
+.color--tealLight {
+  color: $teal-light;
+}
+
+.color--yellowLight {
+  color: $yellow-light;
+}
+
+.color--yellow {
+  color: $yellow;
+}
+
+.color-white {
+  color: $white; 
+}
+
+.color--black {
+  color: $black;
+}

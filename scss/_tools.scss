@@ -1,0 +1,150 @@
+// *************************************
+//
+//   Tools
+//
+// *************************************
+
+@import "settings.scss";
+
+// -------------------------------------
+//   Bucket styles (Display)
+// -------------------------------------
+
+.bucket {
+	display: flex;
+}
+
+.bucket--alignCenter {
+  align-items: center;
+}
+// -------------------------------------
+//   Horizontal Line
+// -------------------------------------
+
+hr {
+  border: 1px solid $teal;
+}
+
+// -------------------------------------
+//   Position
+// -------------------------------------
+
+.pos--abs {
+	position: absolute;
+}
+
+.pos--rel {
+	position: relative;
+}
+
+// -------------------------------------
+//   Margin/Padding
+// -------------------------------------
+
+// -----------Margin: Bottom-------------------//
+
+.mb--15 {
+	margin-bottom: 1.5625rem;
+}
+
+.mb--0625 {
+	margin-bottom: 0.625rem;
+}
+
+.mb--218 {
+	margin-bottom: 2.1875rem;
+}
+
+//50px
+.mb--3125 {
+  margin-bottom: 3.125rem;
+}
+
+//52px
+.mb--325 {
+  margin-bottom: 3.25rem;
+}
+
+//100px
+.mb--625 {
+	margin-bottom: 6.25rem;
+}
+
+// -----------Margin: Top-------------------//
+
+.mt--78 {
+  margin-top: 7.8125rem;
+}
+
+// -----------Margin-Right-------------------//
+
+//100px
+.mr--625 {
+	margin-right: 6.25rem;
+}
+
+// -------------------------------------
+//   Text-Align
+// -------------------------------------
+
+.text--center {
+  text-align: center;
+}
+
+// -------------------------------------
+//   Images/SVGs
+// -------------------------------------
+
+.dotted {
+  margin-left: 0.625rem;;
+  margin-right: 6.25rem;
+  position: relative;
+	img {
+		opacity: 25%;
+		height: 56.25rem;
+		width: 28.125rem;
+	}
+}
+
+.dotted--wide {
+  margin-right: 3.125rem;
+	img {
+		width: 37.5rem;
+	}
+}
+
+.dottedText {
+	left: 5.9375rem;
+	position: absolute;
+	top: 50%;
+	width: 16.3125rem;
+}
+
+.dottedText--wide {
+	top: 18rem;
+	width: 29.625rem;
+}
+
+.image--home {
+	width: 40.635rem;
+	height: 56.25rem;
+}
+
+// -------------------------------------
+//   Grid
+// -------------------------------------
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  div:nth-of-type(odd) {
+    margin-right: 3.125rem;
+  }
+  div:nth-of-type(even) {
+    margin-right: 3.75rem;
+  }
+}
+
+// -------------------------------------
+//   Width
+// -------------------------------------

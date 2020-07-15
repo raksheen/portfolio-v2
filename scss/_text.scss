@@ -1,0 +1,94 @@
+// *************************************
+//
+//   Headings/Text Styles
+//
+// *************************************
+
+@import "settings.scss";
+
+// -------------------------------------
+//   Headings/Text Styles
+// -------------------------------------
+
+//60px
+.heading-1 {
+  color: $white;
+	font-family: "Basetica-Bold";
+	font-size: $up4;
+	line-height: 4.062375rem;
+}
+
+//24px bold and regular
+.heading-2 {
+	font-family: "Basetica";
+	font-size: $up3;
+	line-height: 1.2rem;
+}
+
+//20px; bold and regular, gray and white
+.heading-3 {
+	font-size: $up2;
+	line-height: 1.875rem;
+}
+
+//18px, gray-darker 
+.heading-4 {
+	color: $teal;
+	font-size: $up1;
+	line-height: 1.67rem;
+}
+
+//16px
+.heading-5 {
+  color: $teal;
+	font-size: $base;
+	line-height: 0.9375rem;
+}
+
+//12px, gray-lighter, white
+.heading-6 {
+	color: $teal;
+	font-size: $down1;
+	line-height: 0.75rem;
+}
+
+// -------------------------------------
+//   Font Styles
+// -------------------------------------
+
+.text--bold {
+	font-family: "Basetica-Bold";
+}
+
+.text--regular {
+  font-family: "Basetica";
+}
+
+.text--upperCase {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1;;
+}
+
+.lineHeight--1 {
+	line-height: 1rem;
+}
+
+.lineHeight--1875 {
+  line-height: 1.875rem;
+}
+
+// -------------------------------------
+//   Special Text Effects
+// -------------------------------------
+
+.numberCircle {
+  border-radius: 50%;
+  border: 2px solid $teal;
+  font-size: $up2;
+  line-height: 2.125rem;
+  margin-right: 1.25rem;
+  min-width: 2.125rem;
+  height: 2.125rem;
+  text-align: center;
+}

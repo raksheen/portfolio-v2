@@ -1,3 +1,280 @@
+.color--teal {
+  color: #026670;
+}
+
+.color--tealLight {
+  color: #9FEDD7;
+}
+
+.color--yellowLight {
+  color: #FEF9C7;
+}
+
+.color--yellow {
+  color: #FCE181;
+}
+
+.color-white {
+  color: #edeae5;
+}
+
+.color--black {
+  color: black;
+}
+
+.bucket {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.bucket--alignCenter {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+hr {
+  border: 1px solid #026670;
+}
+
+.pos--abs {
+  position: absolute;
+}
+
+.pos--rel {
+  position: relative;
+}
+
+.mb--15 {
+  margin-bottom: 1.5625rem;
+}
+
+.mb--0625 {
+  margin-bottom: 0.625rem;
+}
+
+.mb--218 {
+  margin-bottom: 2.1875rem;
+}
+
+.mb--3125 {
+  margin-bottom: 3.125rem;
+}
+
+.mb--325 {
+  margin-bottom: 3.25rem;
+}
+
+.mb--625 {
+  margin-bottom: 6.25rem;
+}
+
+.mt--78 {
+  margin-top: 7.8125rem;
+}
+
+.mr--625 {
+  margin-right: 6.25rem;
+}
+
+.text--center {
+  text-align: center;
+}
+
+.dotted {
+  margin-left: 0.625rem;
+  margin-right: 6.25rem;
+  position: relative;
+}
+
+.dotted img {
+  opacity: 25%;
+  height: 56.25rem;
+  width: 28.125rem;
+}
+
+.dotted--wide {
+  margin-right: 3.125rem;
+}
+
+.dotted--wide img {
+  width: 37.5rem;
+}
+
+.dottedText {
+  left: 5.9375rem;
+  position: absolute;
+  top: 50%;
+  width: 16.3125rem;
+}
+
+.dottedText--wide {
+  top: 18rem;
+  width: 29.625rem;
+}
+
+.image--home {
+  width: 40.635rem;
+  height: 56.25rem;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+.grid div:nth-of-type(odd) {
+  margin-right: 3.125rem;
+}
+
+.grid div:nth-of-type(even) {
+  margin-right: 3.75rem;
+}
+
+.color--teal {
+  color: #026670;
+}
+
+.color--tealLight {
+  color: #9FEDD7;
+}
+
+.color--yellowLight {
+  color: #FEF9C7;
+}
+
+.color--yellow {
+  color: #FCE181;
+}
+
+.color-white {
+  color: #edeae5;
+}
+
+.color--black {
+  color: black;
+}
+
+.color--teal {
+  color: #026670;
+}
+
+.color--tealLight {
+  color: #9FEDD7;
+}
+
+.color--yellowLight {
+  color: #FEF9C7;
+}
+
+.color--yellow {
+  color: #FCE181;
+}
+
+.color-white {
+  color: #edeae5;
+}
+
+.color--black {
+  color: black;
+}
+
+.heading-1 {
+  color: #edeae5;
+  font-family: "Basetica-Bold";
+  font-size: 3.75rem;
+  line-height: 4.062375rem;
+}
+
+.heading-2 {
+  font-family: "Basetica";
+  font-size: 1.5rem;
+  line-height: 1.2rem;
+}
+
+.heading-3 {
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+.heading-4 {
+  color: #026670;
+  font-size: 1.125rem;
+  line-height: 1.67rem;
+}
+
+.heading-5 {
+  color: #026670;
+  font-size: 1rem;
+  line-height: 0.9375rem;
+}
+
+.heading-6 {
+  color: #026670;
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+}
+
+.text--bold {
+  font-family: "Basetica-Bold";
+}
+
+.text--regular {
+  font-family: "Basetica";
+}
+
+.text--upperCase {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1;
+}
+
+.lineHeight--1 {
+  line-height: 1rem;
+}
+
+.lineHeight--1875 {
+  line-height: 1.875rem;
+}
+
+.numberCircle {
+  border-radius: 50%;
+  border: 2px solid #026670;
+  font-size: 1.25rem;
+  line-height: 2.125rem;
+  margin-right: 1.25rem;
+  min-width: 2.125rem;
+  height: 2.125rem;
+  text-align: center;
+}
+
+.color--teal {
+  color: #026670;
+}
+
+.color--tealLight {
+  color: #9FEDD7;
+}
+
+.color--yellowLight {
+  color: #FEF9C7;
+}
+
+.color--yellow {
+  color: #FCE181;
+}
+
+.color-white {
+  color: #edeae5;
+}
+
+.color--black {
+  color: black;
+}
+
 .navigation {
   -webkit-box-align: center;
       -ms-flex-align: center;
