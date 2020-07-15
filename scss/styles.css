@@ -1,0 +1,51 @@
+.navigation {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+  position: absolute;
+  list-style-type: none;
+  top: 0;
+  width: 100%;
+}
+
+.navigation--link {
+  position: relative;
+  float: right;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 0 0 2em;
+  text-decoration: none;
+}
+
+.navigation--link a {
+  text-decoration: none;
+  color: #026670;
+}
+
+html {
+  background-color: #edeae5;
+  color: #026670;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Basetica", sans-serif;
+  font-size: 16px;
+  line-height: 1.1;
+  margin: 0;
+  max-height: 100vh;
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  padding: 2.5rem;
+}
+
+body.page {
+  padding: 0rem;
+}
+/*# sourceMappingURL=styles.css.map */
