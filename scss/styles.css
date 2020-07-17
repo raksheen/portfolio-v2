@@ -20,6 +20,7 @@
 
 .color--black {
   color: black;
+  opacity: 75%;
 }
 
 .bucket {
@@ -44,6 +45,10 @@ hr {
 
 .pos--rel {
   position: relative;
+}
+
+.margin--auto {
+  margin: 0 auto;
 }
 
 .mb--0625 {
@@ -86,8 +91,32 @@ hr {
   margin-right: 6.25rem;
 }
 
+.opacity--85 {
+  opacity: 0.85;
+}
+
 .text--center {
   text-align: center;
+}
+
+.image-home {
+  width: 100vw;
+}
+
+.image--parachute {
+  margin-left: 15%;
+  position: absolute;
+  top: 7%;
+  width: 250px;
+}
+
+.image--letsgo {
+  width: 200px;
+}
+
+.icon--home {
+  width: 100px;
+  height: 100px;
 }
 
 .dotted {
@@ -142,28 +171,12 @@ hr {
   margin-right: 3.75rem;
 }
 
-.color--teal {
-  color: #026670;
+.width--470 {
+  width: 470px;
 }
 
-.color--tealLight {
-  color: #9FEDD7;
-}
-
-.color--yellowLight {
-  color: #FEF9C7;
-}
-
-.color--yellow {
-  color: #FCE181;
-}
-
-.color-white {
-  color: #edeae5;
-}
-
-.color--black {
-  color: black;
+.width--600 {
+  width: 600px;
 }
 
 .color--teal {
@@ -188,6 +201,32 @@ hr {
 
 .color--black {
   color: black;
+  opacity: 75%;
+}
+
+.color--teal {
+  color: #026670;
+}
+
+.color--tealLight {
+  color: #9FEDD7;
+}
+
+.color--yellowLight {
+  color: #FEF9C7;
+}
+
+.color--yellow {
+  color: #FCE181;
+}
+
+.color-white {
+  color: #edeae5;
+}
+
+.color--black {
+  color: black;
+  opacity: 75%;
 }
 
 .heading-name {
@@ -292,6 +331,7 @@ hr {
 
 .color--black {
   color: black;
+  opacity: 75%;
 }
 
 .navigation {
@@ -332,9 +372,5 @@ body {
   margin: 0;
   min-width: 100vw;
   min-height: 100vh;
-}
-
-.image-home {
-  width: 100vw;
 }
 /*# sourceMappingURL=styles.css.map */
