@@ -8,6 +8,7 @@
 
 $teal: #026670;
 $teal-light: #9FEDD7;
+$teal-85: rgba(2,102,112,0.8);
 
 $yellow-light: #FEF9C7;
 $yellow: #FCE181;
@@ -32,6 +33,10 @@ $down1: 0.75rem; //12px
 
 .color--teal {
   color: $teal;
+}
+
+.color--teal-85 {
+  color: $teal-85;
 }
 
 .color--tealLight {
