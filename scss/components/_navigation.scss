@@ -9,14 +9,11 @@
 .navigation {
 	align-items: center;
 	height: 50px;
-	position: absolute;
   list-style-type: none;
   top: 0;
-  width: 100%;
 }
 
 .navigation--link {
-  position: relative;
   float: right;
   align-items: center;
   margin: 0 0 0 2em;
