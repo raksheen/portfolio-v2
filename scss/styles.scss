@@ -34,7 +34,35 @@ html {
 }
 
 body {
-	margin: 0;
+	margin-bottom: 2rem;
 	min-width: 100vw;
   min-height: 100vh;
+  a {
+    text-decoration: underline;
+    color: $teal;
+  }
+}
+
+.btn--cta {
+	align-items: center;
+	background: $teal;
+	border-radius: 5px;
+	display: flex;
+	height: 50px;
+	justify-content: center;
+	margin: auto;
+  width: 200px;
+  max-width: 600px;
+  a {
+    color: $white;
+    text-decoration: none;
+  }
+  &:hover {
+    background: $teal-85;
+  }
+	@media only screen and (min-width: 10px) and (max-width: 500px) {
+		.mobile-button {
+			width: 100%;
+		}
+	}
 }
