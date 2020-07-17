@@ -20,6 +20,9 @@
   text-decoration: none;
   a {
     text-decoration: none;
-    color:$teal;
+    font-size: $up1;
+  }
+  &:hover {
+    border-bottom: 2px solid $teal;
   }
 }
