@@ -367,6 +367,13 @@ a.text--decorationNone {
   width: 250px;
 }
 
+.image--pencil {
+  margin-left: 30%;
+  position: absolute;
+  top: 3%;
+  width: 170px;
+}
+
 .image--letsgo {
   width: 200px;
 }
@@ -438,7 +445,7 @@ a.text--decorationNone {
   /*Define our columns */
   -ms-grid-columns: (minmax(325px, 1fr))[auto-fill];
       grid-template-columns: repeat(auto-fill, minmax(325px, 1fr));
-  grid-gap: 1em;
+  grid-gap: 1.5em;
 }
 
 .grid-item:hover {

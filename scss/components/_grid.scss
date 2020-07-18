@@ -24,7 +24,7 @@
   grid-auto-rows: 406px; 
   /*Define our columns */
   grid-template-columns: repeat(auto-fill, minmax(325px, 1fr)); 
-  grid-gap: 1em;
+  grid-gap: 1.5em;
 }
 
 .grid-item {
