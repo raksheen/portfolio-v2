@@ -83,8 +83,18 @@
   line-height: 1;;
 }
 
+// links
+a.text--decorationNone {
+  text-decoration: none;
+}
+
+// line-height
 .lineHeight--1 {
 	line-height: 1rem;
+}
+
+.lineHeight--13 {
+  line-height: 1.3rem;
 }
 
 .lineHeight--1875 {

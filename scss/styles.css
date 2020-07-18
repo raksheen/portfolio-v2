@@ -61,6 +61,10 @@ hr {
   margin: 0 auto;
 }
 
+.mb--025 {
+  margin-bottom: 0.25rem;
+}
+
 .mb--075 {
   margin-bottom: 0.75rem;
 }
@@ -240,8 +244,16 @@ hr {
   line-height: 1;
 }
 
+a.text--decorationNone {
+  text-decoration: none;
+}
+
 .lineHeight--1 {
   line-height: 1rem;
+}
+
+.lineHeight--13 {
+  line-height: 1.3rem;
 }
 
 .lineHeight--1875 {
@@ -378,8 +390,7 @@ hr {
 }
 
 .image--writing {
-  height: 175px;
-  width: 325px;
+  height: 225px;
 }
 
 .color--teal {
@@ -430,8 +441,10 @@ hr {
   grid-gap: 1em;
 }
 
-.grid-item {
-  background: orange;
+.grid-item:hover {
+  opacity: 0.85;
+  -webkit-transform: scale(1.007);
+          transform: scale(1.007);
 }
 
 html {

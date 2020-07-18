@@ -28,5 +28,10 @@
 }
 
 .grid-item {
-background: orange;
+  // background: orange;
+  // border: 1px solid black;
+  &:hover {
+    opacity: 0.85;
+    transform: scale(1.007);
+  }
 }
