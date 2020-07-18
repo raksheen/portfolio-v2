@@ -1,0 +1,46 @@
+// *************************************
+//
+//   Settings
+//
+// *************************************
+
+@import "../_settings.scss";
+
+// -------------------------------------
+//   Images/SVGs
+// -------------------------------------
+
+.image-home {
+  width: 100vw;
+}
+
+.image--parachute {
+  margin-left: 15%;
+  position: absolute;
+  top: 7%;
+  width: 250px;
+}
+
+.image--letsgo {
+  width: 200px;
+}
+
+.icon--home {
+  height: 100px;
+  opacity: 85%;
+  width: 100px;
+}
+
+// writing page 
+.image {
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  transition: transform .35s ease-out;
+  width: 100%;
+}
+
+.image--writing {
+  height: 175px;
+  width: 325px;
+}
