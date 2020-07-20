@@ -10,6 +10,15 @@
 //   Images/SVGs
 // -------------------------------------
 
+// writing page 
+.image {
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  transition: transform .35s ease-out;
+  width: 100%;
+}
+
 .image-home {
   width: 100vw;
 }
@@ -34,21 +43,24 @@
   width: 200px;
 }
 
-.icon--home {
+.icon {
   height: 100px;
   opacity: 85%;
   width: 100px;
 }
 
-// writing page 
-.image {
-  height: 100%;
-  object-fit: cover;
-  position: relative;
-  transition: transform .35s ease-out;
-  width: 100%;
+.icon--small {
+  height: 70px;
+  width: 70px;
 }
 
 .image--writing {
   height: 225px;
+}
+
+//company logos
+
+.image--brandLogo {
+  width: 150px;
+  opacity: 80%;
 }
