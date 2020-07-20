@@ -13,15 +13,18 @@ $teal-85: rgba(2,102,112,0.85);
 $yellow-light: #FEF9C7;
 $yellow: #FCE181;
 
+$brown-light: rgba(153,113, 86, 0.25);
+$brown: #997156;
+
 $white: #edeae5;
 $black: #2c2d36;
 
 // -----------Font Sizes-------------------//
 
-
+$up6: 4rem;
 $up5: 3.75rem; //60px
 $up4: 2rem; // 32px
-$up3: 1.5rem; //24px
+$up3: 1.35rem; //24px
 $up2: 1.25rem; //20px
 $up1: 1.125rem; //18px
 $base: 1rem; //16px
@@ -53,6 +56,10 @@ $down1: 0.75rem; //12px
 
 .color-white {
   color: $white; 
+}
+
+.color-brown {
+  color: $brown;
 }
 
 .color--black {
