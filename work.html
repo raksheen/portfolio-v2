@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Work</title>
+		<link rel="stylesheet" type="text/css" href="scss/styles.css" />
+	</head>
+
+	<body>
+    <!-- Start: Navigation -->
+    <ul class="navigation">
+      <li class="navigation--link"><a href="writing.html">Writing</a></li>
+      <li class="navigation--link"><a href="consulting.html">Consulting</a></li>
+      <li class="navigation--link"><a href="work.html">Work</a></li>
+      <li class="navigation--link"><a href="index.html">About</a></li>
+    </ul>
+    <!-- End: Navigation -->
+
+    <!-- Start: Header -->
+    <!-- ToDo: insert Bitmoji -->
+    <div class="text--center mt--4">
+      <div class="heading-name mb--15">Work.</div>
+      <div class="heading-4 color--teal85 mb--325">
+        Here’s just a selection of just some of my work. Keep up with me on Twitter.
+      </div>
+    </div>
+    <!-- End: Header -->
+    
+    <!-- Start: Exp 1 -->
+    <div class="bkg--tealLight">
+
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <img class="image image--work" src="assets/work/sugarRush_01.png" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <img class="image image--work" src="assets/work/sugarRush_02.png" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <img class="image image--work" src="assets/work/sugarRush_03.png" style="width:100%">
+        </div>
+      </div>
+      
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+      </div>
+
+      <div class="width--600 text--center margin--auto">
+        <div class="heading-1 color--black">Sugar Rush</div>
+        <div class="heading-5 color--black text--ital mb--218">Web Design / UI / UX / Front-end development</div>
+        <div class="heading-5 color--black mb--15">
+          eCommerce site design selling curated product selection of high-end 
+          chocolate bars from Brooklyn startups. Wireframes designed in Figma, logo designed in 
+          PhotoShop and site built using HTML, CSS3 and&nbsp;JavaScript.
+        </div>
+      </div>
+      <div class="btn--cta mb--218">
+        <a href="http://chilly-pollution.surge.sh/" target="_blank">View</a>
+      </div>
+    </div>
+    <!-- Ebd: Exp 1 -->
+
+    <!-- Start: Exp 2 -->
+    <div class="bkg--tealLight">
+
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <img class="image image--work" src="assets/work/sugarRush_01.png" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <img class="image image--work" src="assets/work/sugarRush_02.png" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <img class="image image--work" src="assets/work/sugarRush_03.png" style="width:100%">
+        </div>
+      </div>
+      
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+      </div>
+
+      <div class="width--600 text--center margin--auto">
+        <div class="heading-1 color--black">Sugar Rush</div>
+        <div class="heading-5 color--black text--ital mb--218">Web Design / UI / UX / Front-end development</div>
+        <div class="heading-5 color--black mb--15">
+          eCommerce site design selling curated product selection of high-end 
+          chocolate bars from Brooklyn startups. Wireframes designed in Figma, logo designed in 
+          PhotoShop and site built using HTML, CSS3 and&nbsp;JavaScript.
+        </div>
+      </div>
+      <div class="btn--cta mb--218">
+        <a href="http://chilly-pollution.surge.sh/" target="_blank">View</a>
+      </div>
+    </div>
+    <!-- Ebd: Exp 2 -->
+
+
+    <!-- Slide Show script -->
+    <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+      
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+      
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+      
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+      }
+      </script>
+	</body>
+</html>
