@@ -32,18 +32,27 @@
 
 //bitmojis
 
-.image--parachute {
+.bitmoji--home {
   margin-left: 15%;
   position: absolute;
   top: 7%;
   width: 250px;
-}
+  @media screen and (max-width: 1100px) {
+    left: 10%;
+    margin-bottom: -65px;
+    position: relative;
+    width: 210px;
+  } 
+} 
 
-.image--pencil {
-  margin-left: 30%;
-  position: absolute;
-  top: 3%;
-  width: 170px;
+.bitmoji--page {
+  display: flex;
+  position: relative;
+  width: 180px;
+  margin: auto;
+  @media screen and (min-width: 800px) {
+    width: 240px;
+  } 
 }
 
 .image--letsgo {
@@ -61,6 +70,15 @@
 .icon--small {
   height: 70px;
   width: 70px;
+  animation: transform 2s ease-in-out;
+}
+@keyframes transform {
+  20% {
+    transform: scale(1.15)
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 .image--writing {
