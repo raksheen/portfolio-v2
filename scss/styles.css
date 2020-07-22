@@ -130,7 +130,13 @@ hr {
 }
 
 .width--600 {
-  width: 600px;
+  width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+  .width--600 {
+    width: 600px;
+  }
 }
 
 .width--80pct {
@@ -417,18 +423,42 @@ a.text--decorationNone {
 }
 
 .bitmoji--home {
-  margin-left: 15%;
-  position: absolute;
-  top: 7%;
-  width: 250px;
+  position: relative;
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (min-width: 800px) {
   .bitmoji--home {
-    left: 10%;
-    margin-bottom: -65px;
-    position: relative;
-    width: 210px;
+    position: absolute;
+    top: 1.5%;
+    width: 250px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .bitmoji--home {
+    top: 2%;
+    left: 7%;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .bitmoji--home {
+    left: 15%;
+    width: 260px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .bitmoji--home {
+    left: 18%;
   }
 }
 
