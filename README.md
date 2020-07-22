@@ -1,2 +1,2 @@
 # portfolio-v2
- Portfolio site Jily 2020
+ Portfolio site July 2020
