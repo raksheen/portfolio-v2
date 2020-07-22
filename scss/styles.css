@@ -431,8 +431,14 @@ a.text--decorationNone {
 
 .image--work {
   border-radius: 10px;
-  height: 100;
+  height: 100%;
   width: 600px;
+}
+
+.image--work-email {
+  height: 500px;
+  -o-object-position: top;
+     object-position: top;
 }
 
 .image--parachute {
