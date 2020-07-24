@@ -17,9 +17,12 @@
 
 /* Slideshow container */
 .slideshow { /*NOT slideshow-container*/
-  max-width: 600px;
-  position: relative;
+  width: 80%;
   margin: auto;
+  position: relative;
+  @media screen and (min-width: 800px) {
+    max-width: 600px;
+	}
 }
 
 /* The dots/bullets/indicators */

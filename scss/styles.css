@@ -32,9 +32,7 @@
 }
 
 .bucket {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
 }
 
 .bucket--alignCenter {
@@ -47,6 +45,25 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.bucket--columnReverse {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+
+@media screen and (min-width: 600px) {
+  .bucket--columnReverse {
+    -webkit-box-orient: inherit;
+    -webkit-box-direction: inherit;
+        -ms-flex-direction: inherit;
+            flex-direction: inherit;
+  }
 }
 
 hr {
@@ -81,8 +98,12 @@ hr {
   margin-bottom: 1.25rem;
 }
 
+.mb--1 {
+  margin-bottom: 1rem;
+}
+
 .mb--15 {
-  margin-bottom: 1.5625rem;
+  margin-bottom: 1.5rem;
 }
 
 .mb--218 {
@@ -125,10 +146,6 @@ hr {
   text-align: left;
 }
 
-.width--430 {
-  width: 430px;
-}
-
 .width--470 {
   width: 470px;
 }
@@ -137,14 +154,37 @@ hr {
   width: 100%;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 800px) {
   .width--600 {
     width: 600px;
   }
 }
 
-.width--80pct {
+.width--95pct {
+  width: 95%;
+}
+
+.width--65pct {
   width: 65%;
+}
+
+.section--home {
+  margin-bottom: 4.5rem;
+}
+
+@media screen and (min-width: 600px) {
+  .section--home {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: left;
+  }
 }
 
 .color--teal {
@@ -243,7 +283,7 @@ hr {
 }
 
 .heading-5 {
-  color: #026670;
+  color: #2c2d36;
   font-size: 1.125rem;
   line-height: 1.67rem;
 }
@@ -492,6 +532,16 @@ a.text--decorationNone {
   width: 100px;
 }
 
+.icon--home {
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 600px) {
+  .icon--home {
+    margin-bottom: 0rem;
+  }
+}
+
 .icon--small {
   height: 70px;
   width: 70px;
@@ -700,9 +750,15 @@ a.text--decorationNone {
 /* Slideshow container */
 .slideshow {
   /*NOT slideshow-container*/
-  max-width: 600px;
-  position: relative;
+  width: 80%;
   margin: auto;
+  position: relative;
+}
+
+@media screen and (min-width: 800px) {
+  .slideshow {
+    max-width: 600px;
+  }
 }
 
 /* The dots/bullets/indicators */
@@ -783,7 +839,7 @@ body a {
       -ms-flex-pack: center;
           justify-content: center;
   margin: auto;
-  width: 200px;
+  width: 75%;
   max-width: 600px;
 }
 
@@ -796,9 +852,9 @@ body a {
   background: rgba(2, 102, 112, 0.85);
 }
 
-@media only screen and (min-width: 10px) and (max-width: 500px) {
-  .btn--cta .mobile-button {
-    width: 100%;
+@media only screen and (min-width: 800px) {
+  .btn--cta {
+    width: 200px;
   }
 }
 

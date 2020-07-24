@@ -79,6 +79,13 @@
 	width: 100px;
 }
 
+.icon--home {
+  margin-bottom: 1rem;
+  @media screen and (min-width: 600px) {
+    margin-bottom: 0rem;
+  } 
+}
+
 .icon--small {
 	height: 70px;
 	width: 70px;
