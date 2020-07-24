@@ -1,5 +1,5 @@
 .color--teal {
-  color: #026670;
+  color: #355C66;
 }
 
 .color--teal85 {
@@ -7,7 +7,7 @@
 }
 
 .color--tealLight {
-  color: #9FEDD7;
+  color: #7D979D;
 }
 
 .color--yellowLight {
@@ -67,7 +67,7 @@
 }
 
 hr {
-  border: 1px solid #026670;
+  border: 1px solid #355C66;
 }
 
 .pos--abs {
@@ -147,14 +147,22 @@ hr {
 }
 
 .width--470 {
-  width: 470px;
+  width: 95%;
+  margin: auto;
+  position: relative;
+}
+
+@media screen and (min-width: 600px) {
+  .width--470 {
+    max-width: 470px;
+  }
 }
 
 .width--600 {
   width: 100%;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 600px) {
   .width--600 {
     width: 600px;
   }
@@ -168,7 +176,7 @@ hr {
   width: 90%;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 600px) {
   .width--65pct {
     width: 70%;
   }
@@ -194,7 +202,7 @@ hr {
 }
 
 .color--teal {
-  color: #026670;
+  color: #355C66;
 }
 
 .color--teal85 {
@@ -202,7 +210,7 @@ hr {
 }
 
 .color--tealLight {
-  color: #9FEDD7;
+  color: #7D979D;
 }
 
 .color--yellowLight {
@@ -227,7 +235,7 @@ hr {
 }
 
 .color--teal {
-  color: #026670;
+  color: #355C66;
 }
 
 .color--teal85 {
@@ -235,7 +243,7 @@ hr {
 }
 
 .color--tealLight {
-  color: #9FEDD7;
+  color: #7D979D;
 }
 
 .color--yellowLight {
@@ -264,14 +272,14 @@ hr {
 }
 
 .heading-1 {
-  color: #026670;
+  color: #355C66;
   font-family: "Basetica";
   font-size: 2rem;
   line-height: 4.062375rem;
 }
 
 .heading-2 {
-  color: #026670;
+  color: #355C66;
   font-family: "Basetica-Bold";
   font-size: 2rem;
   line-height: 4.062375rem;
@@ -295,13 +303,13 @@ hr {
 }
 
 .heading-6 {
-  color: #026670;
+  color: #355C66;
   font-size: 1rem;
   line-height: 0.9375rem;
 }
 
 .heading-7 {
-  color: #026670;
+  color: #355C66;
   font-size: 0.75rem;
   line-height: 0.75rem;
 }
@@ -342,7 +350,7 @@ a.text--decorationNone {
 
 .numberCircle {
   border-radius: 50%;
-  border: 2px solid #026670;
+  border: 2px solid #355C66;
   font-size: 1.25rem;
   line-height: 2.125rem;
   margin-right: 1.25rem;
@@ -352,7 +360,7 @@ a.text--decorationNone {
 }
 
 .color--teal {
-  color: #026670;
+  color: #355C66;
 }
 
 .color--teal85 {
@@ -360,7 +368,7 @@ a.text--decorationNone {
 }
 
 .color--tealLight {
-  color: #9FEDD7;
+  color: #7D979D;
 }
 
 .color--yellowLight {
@@ -415,7 +423,7 @@ a.text--decorationNone {
 }
 
 .color--teal {
-  color: #026670;
+  color: #355C66;
 }
 
 .color--teal85 {
@@ -423,7 +431,7 @@ a.text--decorationNone {
 }
 
 .color--tealLight {
-  color: #9FEDD7;
+  color: #7D979D;
 }
 
 .color--yellowLight {
@@ -482,7 +490,7 @@ a.text--decorationNone {
   margin: auto;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 600px) {
   .bitmoji--home {
     position: absolute;
     top: 1.5%;
@@ -522,7 +530,7 @@ a.text--decorationNone {
   margin: auto;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 600px) {
   .bitmoji--page {
     width: 200px;
   }
@@ -533,9 +541,8 @@ a.text--decorationNone {
 }
 
 .icon {
-  height: 100px;
   opacity: 85%;
-  width: 100px;
+  width: 110px;
 }
 
 .icon--home {
@@ -587,7 +594,7 @@ a.text--decorationNone {
 }
 
 .color--teal {
-  color: #026670;
+  color: #355C66;
 }
 
 .color--teal85 {
@@ -595,7 +602,7 @@ a.text--decorationNone {
 }
 
 .color--tealLight {
-  color: #9FEDD7;
+  color: #7D979D;
 }
 
 .color--yellowLight {
@@ -662,7 +669,7 @@ a.text--decorationNone {
   text-align: left;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 600px) {
   .card-grid-container {
     -ms-grid-rows: auto auto auto;
         grid-template-rows: auto auto auto;
@@ -689,7 +696,7 @@ a.text--decorationNone {
   text-align: left;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 600px) {
   .card-item {
     max-width: 310px;
   }
@@ -723,7 +730,7 @@ a.text--decorationNone {
 }
 
 .color--teal {
-  color: #026670;
+  color: #355C66;
 }
 
 .color--teal85 {
@@ -731,7 +738,7 @@ a.text--decorationNone {
 }
 
 .color--tealLight {
-  color: #9FEDD7;
+  color: #7D979D;
 }
 
 .color--yellowLight {
@@ -767,7 +774,7 @@ a.text--decorationNone {
   position: relative;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 600px) {
   .slideshow {
     max-width: 600px;
   }
@@ -825,7 +832,7 @@ a.text--decorationNone {
 
 html {
   background-color: #edeae5;
-  color: #026670;
+  color: #355C66;
   font-family: "Basetica", sans-serif;
   font-size: 16px;
   line-height: 1.1;
@@ -834,14 +841,14 @@ html {
 
 body a {
   text-decoration: underline;
-  color: #026670;
+  color: #355C66;
 }
 
 .btn--cta {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: #026670;
+  background: #355C66;
   border-radius: 5px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -864,7 +871,7 @@ body a {
   background: rgba(2, 102, 112, 0.85);
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 600px) {
   .btn--cta {
     width: 200px;
   }

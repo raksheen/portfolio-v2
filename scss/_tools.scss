@@ -145,7 +145,12 @@ hr {
 // -------------------------------------
 
 .width--470 {
-  width: 470px;
+  width: 95%;
+  margin: auto;
+  position: relative;
+  @media screen and (min-width: 600px) {
+    max-width: 470px;
+	}
 }
 
 .width--600 {
