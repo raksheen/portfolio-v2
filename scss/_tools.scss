@@ -156,11 +156,14 @@ hr {
 }
 
 .width--95pct {
-  width: 95%;
+  width: 98%;
 }
 
 .width--65pct {
-  width: 65%;
+  width: 90%;
+  @media screen and (min-width: 800px) {
+    width: 70%;
+  } 
 }
 
 // -------------------------------------

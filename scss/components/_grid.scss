@@ -58,18 +58,21 @@
 }
 
 .card-item {
-  display: inline;
-  max-height: 550px;
-  max-width: 310px;
-  background: $brown-light;
-  -ms-grid-column-align: auto;
-  justify-self: auto;
-  -webkit-align-self: auto;
+  max-width:100%;
   -ms-flex-item-align: auto;
+  -ms-grid-column-align: auto;
   -ms-grid-row-align: auto;
+  -webkit-align-self: auto;
   align-self: auto;
+  background: $brown-light;
   box-sizing: border-box;
+  display: inline;
+  justify-self: auto;
+  max-height: 550px;
   text-align: left;
+  @media screen and (min-width: 767px) {
+    max-width: 310px;
+  }
 }
 
 .card-item--content {
