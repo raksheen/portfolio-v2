@@ -50,7 +50,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
   text-align: left;
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 600px) {
     grid-template-rows: auto auto auto;
     grid-template-columns: 1fr;
     display: inline-grid;
@@ -70,7 +70,7 @@
   justify-self: auto;
   max-height: 550px;
   text-align: left;
-  @media screen and (min-width: 767px) {
+  @media screen and (min-width: 600px) {
     max-width: 310px;
   }
 }
