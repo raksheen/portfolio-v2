@@ -25,11 +25,8 @@
 .bucket--columnReverse {
   display: flex;
   flex-direction: column-reverse;
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 1024px) {
     flex-direction: inherit;
-  } 
-  @media screen and (min-width: 1100px) {
-    // flex-direction: row-reverse;
   } 
 }
 // -------------------------------------
@@ -145,11 +142,18 @@ hr {
 // -------------------------------------
 
 .width--470 {
-  width: 95%;
   margin: auto;
+  max-width: 90%;
   position: relative;
-  @media screen and (min-width: 600px) {
-    max-width: 470px;
+  width: 90%;
+  @media screen and (min-width: 767px) {
+    max-width: 490px;
+  }
+  @media screen and (min-width: 1024px) {
+    max-width: 600px;
+  }
+  @media screen and (min-width: 1280px) {
+    max-width: 700px;
 	}
 }
 
@@ -177,7 +181,20 @@ hr {
 
 .section--home {
   margin-bottom: 4.5rem;
-  @media screen and (min-width: 600px) {
+  display: block;
+  text-align: center;
+  @media screen and (min-width: 1024px) {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: left; 
+  }
+}
+
+.section--home-rowReverse {
+  margin-bottom: 4.5rem;
+  text-align: center;
+  @media screen and (min-width: 1024px) {
     align-items: center;
     display: flex;
     justify-content: center;
