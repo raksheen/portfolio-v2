@@ -47,12 +47,12 @@
   display: grid;
   grid-column-gap: 40px;
   grid-row-gap: 40px;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-template-rows: auto;
   text-align: left;
-  @media screen and (max-width: 600px) {
+  @media screen and (min-width: 767px) {
     grid-template-rows: auto auto auto;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     display: inline-grid;
   }
 }
@@ -70,7 +70,7 @@
   justify-self: auto;
   max-height: 550px;
   text-align: left;
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 767px) {
     max-width: 310px;
   }
 }
