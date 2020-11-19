@@ -885,6 +885,7 @@ body a {
           align-items: center;
   background: #355C66;
   border-radius: 5px;
+  cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
