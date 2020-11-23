@@ -700,7 +700,6 @@ a.text--decorationNone {
   grid-row-gap: 40px;
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
-  grid-template-rows: auto;
   text-align: left;
 }
 
