@@ -17,11 +17,11 @@
 
 /* Slideshow container */
 .slideshow { /*NOT slideshow-container*/
-  width: 95%;
   margin: auto;
-  position: relative;
-  @media screen and (min-width: 600px) {
-    max-width: 600px;
+  // margin: auto;
+  // position: relative;
+  @media screen and (min-width: 767px) {
+    // width: 50%;
 	}
 }
 

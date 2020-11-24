@@ -11,11 +11,15 @@
 // -------------------------------------
 
 .bucket {
-  display: block;
+  display: flex;
 }
 
 .bucket--alignCenter {
   align-items: center;
+}
+
+.bucket--justifyCenter {
+  justify-content: center;
 }
 
 .bucket--spaceBetween {
@@ -164,15 +168,22 @@ hr {
   } 
 }
 
-.width--95pct {
-  width: 98%;
+.width--60pct {
+  width: 90%;
+  @media screen and (min-width: 767px) {
+    width: 60%;
+  } 
 }
 
-.width--65pct {
+.width--70pct {
   width: 90%;
   @media screen and (min-width: 600px) {
     width: 70%;
   } 
+}
+
+.width--95pct {
+  width: 98%;
 }
 
 // -------------------------------------

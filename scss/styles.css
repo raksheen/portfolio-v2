@@ -32,13 +32,21 @@
 }
 
 .bucket {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .bucket--alignCenter {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.bucket--justifyCenter {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .bucket--spaceBetween {
@@ -181,18 +189,28 @@ hr {
   }
 }
 
-.width--95pct {
-  width: 98%;
+.width--60pct {
+  width: 90%;
 }
 
-.width--65pct {
+@media screen and (min-width: 767px) {
+  .width--60pct {
+    width: 60%;
+  }
+}
+
+.width--70pct {
   width: 90%;
 }
 
 @media screen and (min-width: 600px) {
-  .width--65pct {
+  .width--70pct {
     width: 70%;
   }
+}
+
+.width--95pct {
+  width: 98%;
 }
 
 .section--home {
@@ -803,15 +821,7 @@ a.text--decorationNone {
 /* Slideshow container */
 .slideshow {
   /*NOT slideshow-container*/
-  width: 95%;
   margin: auto;
-  position: relative;
-}
-
-@media screen and (min-width: 600px) {
-  .slideshow {
-    max-width: 600px;
-  }
 }
 
 /* The dots/bullets/indicators */
