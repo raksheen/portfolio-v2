@@ -118,3 +118,18 @@ a.text--decorationNone {
   height: 2.125rem;
   text-align: center;
 }
+
+.text--underline {
+  border-bottom: 5px solid $yellow;
+  display: inline-block;
+  line-height: 2.6rem;
+  width: fit-content;
+}
+
+.text--underline-hover {
+  border-bottom: 5px solid transparent;
+  width: fit-content;
+  &:hover {
+    border-bottom: 5px solid $yellow;
+  }
+}
